@@ -1,0 +1,6 @@
+services:
+  cafewebsite:
+    image: cafewebsite
+    build:
+      context: .
+      dockerfile: ./Dockerfile
